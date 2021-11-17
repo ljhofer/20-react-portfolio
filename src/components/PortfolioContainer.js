@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import NavTabs from './NavTabs';
+import Footer from './Footer';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
@@ -26,14 +27,12 @@ export default function PortfolioContainer() {
   // Which ever page we clicked on gets set as the current page in state
   const handlePageChange = (page) => setCurrentPage(page);
 
+  // TODO: add comments here
   return (
     <div>
-      {/* // TODO: Add a comment describing what we are passing as props */}
-      {/* {Load up NavTabs, In the NavTabs component we are passing value of currentPage props and handlePageChange props} */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // TODO: Add a comment explaining what is happening on the following line */}
-      {/* {calling the renderPage function to see what page should be displayed} */}
       {renderPage()}
+      <Footer />
     </div>
   );
 }

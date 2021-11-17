@@ -3,7 +3,21 @@
 export default function Resume() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <h1>Resume</h1>
+      
+      <h3>Technical Skills</h3>
+      <ul>
+          <li>HMTL</li>
+          <li>CCS</li>
+          <li>Bootstrap</li>
+          <li>JavaScript</li>
+          <li>jQuery</li>
+          <li>Express</li>
+          <li>Node.js</li>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+          <li>React.js</li>
+      </ul>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
