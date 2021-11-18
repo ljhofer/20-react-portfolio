@@ -3,7 +3,8 @@ import React from 'react';
 const styles = {
   div: {
     margin: 20,
-    background: '#8d968e'
+    background: '#8d968e',
+    // width: '100%',
     // display: 'flex',
     // flexWrap: 'wrap',
     // minHeight: 50,
@@ -16,6 +17,7 @@ const styles = {
     textAlign: 'center'
   },
   nav: {
+    
     // display: 'flex',
     // flexWrap: 'wrap',
     // margin: 'auto',
