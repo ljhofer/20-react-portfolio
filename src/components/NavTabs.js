@@ -17,9 +17,8 @@ const styles = {
     textAlign: 'center'
   },
   nav: {
-    
-    // display: 'flex',
-    // flexWrap: 'wrap',
+    display: 'flex',
+    flexWrap: 'wrap',
     // margin: 'auto',
   },
   a: {
@@ -29,7 +28,6 @@ const styles = {
     marginLeft: 7,
     fontSize: 35,
     color: 'white',
-
   },
 };
 
