@@ -19,7 +19,7 @@ const styles = {
   nav: {
     display: 'flex',
     flexWrap: 'wrap',
-    // margin: 'auto',
+    justifyContent: 'center',
   },
   a: {
     textDecoration: 'none',
@@ -40,7 +40,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       <p style={styles.p}>Laura Hofer</p>
       {/* <ul className="nav nav-tabs" style={styles.ul}>
         <li className="nav-item" style={styles.li}> */}
-      <nav>  
+      <nav style={styles.nav}>   
           <a style={styles.a}
             href="#about"
             onClick={() => handlePageChange('About')}

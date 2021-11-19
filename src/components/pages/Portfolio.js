@@ -19,15 +19,15 @@ export default function Portfolio() {
     <div>
       <h1 style={styles.h1}>Portfolio</h1>
       <section className='row' id='projects'>
-        <div className="card" >
+        <div className="card col-10 col-md-5 col-lg-3" >
             <img className="card-img-top" src={catImage} alt="Cat looking at a computer" />
             <div className="card-body">
               <h5 className="card-title">CaptionMe(me)</h5>
               <p className="card-text">This app allows users to caption an image to create a memet. I coded the routes, models, seeds, event handlers, server, and index files. I also served as Project Manager.</p>
             </div>
-            <div className="card-body">
-              <a href="https://captionmeme.herokuapp.com/" className="card-link" target="_blank">Deployed Code</a>
-              <a href="https://github.com/jordanlindgren/GroupProject2" className="card-link" target="_blank">GitHub Repo</a>
+            <div className="row d-flex justify-content-center">
+              <a href="https://captionmeme.herokuapp.com/" className="card-link col-12" target="_blank">Deployed Code</a>
+              <a href="https://github.com/jordanlindgren/GroupProject2" className="card-link col-12" target="_blank">GitHub Repo</a>
             </div>
         </div>
 
