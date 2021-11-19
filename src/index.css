@@ -12,10 +12,9 @@ code {
     monospace;
 }
 
+/* Styling for the nav tab that is currently displaying */
 .active {
   outline: 2px solid white;
-  /* background-color: 'white';
-  color: '#8d968e'; */
   background-color: #383d38;
 
 }

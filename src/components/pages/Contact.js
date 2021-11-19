@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Styling for the HTML elements generated in this component
 const styles = {
   h1: {
     textAlign: 'center',
@@ -14,7 +15,7 @@ const styles = {
   }
 };
 
-// TODO: Update for this homework
+// Generated the HTML to be displayed on the Contact page
 export default function Contact() {
   return (
     <div >
@@ -22,17 +23,17 @@ export default function Contact() {
 
       <form style={styles.form}>
         <div className="form-group" style={styles.div}>
-          <label for="htmlFor">Enter your name</label>
+          <label>Enter your name</label>
           <input type="input" className="form-control" id="exampleFormControlInput2" />
         </div>
                 
         <div className="form-group" style={styles.div}>
-          <label for="htmlFor">Enter your email address</label>
+          <label>Enter your email address</label>
           <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
         </div>
      
         <div className="form-group" style={styles.div}>
-          <label for="htmlFor">Enter your message</label>
+          <label>Enter your message</label>
           <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
 

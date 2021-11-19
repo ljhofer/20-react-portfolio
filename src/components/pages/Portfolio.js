@@ -6,6 +6,7 @@ import employeeImage from '../../images/employee.jpg';
 import emailImage from '../../images/email.jpg';
 import blogImage from '../../images/blog.jpg';
 
+// Styling for the HTML elements generated in this component
 const styles = {
   h1: {
     textAlign: 'center'
@@ -28,7 +29,7 @@ const styles = {
 };
 
 
-// Update this for this homework
+// Generated the HTML that is displayed on the Portfolio page
 export default function Portfolio() {
   return (
     <div>

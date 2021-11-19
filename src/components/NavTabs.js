@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Styling for the HTML elements generated with this component
 const styles = {
   div: {
     margin: 20,
@@ -16,7 +17,6 @@ const styles = {
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'center',
-    // backgroundColor: '#bbccbd'
   },
   a: {
     textDecoration: 'none',
@@ -28,9 +28,7 @@ const styles = {
   },
 };
 
-// TODO: Add a comment explaining how we are able to extract the key value pairs from props
-//  Destructuring those two props 
-
+// Generates the header and nav tabs and detects which nav tab is open to the current page display and adds a clas of active to change the styling
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div style={styles.div}>

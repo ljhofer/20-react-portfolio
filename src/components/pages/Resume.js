@@ -1,6 +1,6 @@
 import resumeImage from '../../images/resume_11_21.pdf';
 
-
+// Styling for the HTML elements generated in this component
 const styles = {
   h1: {
     textAlign: 'center',
@@ -32,7 +32,7 @@ const styles = {
   }
 };
 
-// TODO: Update for this homework
+// Generates the HTML that displays in the Resume page
 export default function Resume() {
   return (
     <div>

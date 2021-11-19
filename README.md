@@ -18,8 +18,8 @@ I have created a React portfolio to promote my work. I have used React to handle
 
 ## Usage
 Here is a screen shot of the landing page for the app:
-<!-- Add a final screen shot -->
-![Screen shot of landing page](./public/images/homepagescreenshot.png)
+
+![Screen shot of landing page](./src/images/screenshot.png)
 
 ## License
 This project licensed under the [MIT License](https://opensource.org/licenses/MIT).
@@ -28,8 +28,7 @@ This project licensed under the [MIT License](https://opensource.org/licenses/MI
 Please contact me at <ljhofer@gmail.com> to discuss contributions.
 
 ## Link
-<!-- Switch out for final links -->
-[Link to deployed on Heroku.](https://ljhofer-tech-blog.herokuapp.com/)
+[Link to deployed on GitHub pages.](https://ljhofer.github.io/20-react-portfolio/)
 
 [Link to project's GitHub repo.](https://github.com/ljhofer/20-react-portfolio)
 

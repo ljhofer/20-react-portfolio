@@ -9,8 +9,7 @@ import Contact from './pages/Contact';
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
-  // TODO: Update this for this homework
-
+  // Renders HTML depending on which page the user has selected
   const renderPage = () => {
     if (currentPage === 'About') {
       return <About />;
@@ -27,7 +26,7 @@ export default function PortfolioContainer() {
   // Which ever page we clicked on gets set as the current page in state
   const handlePageChange = (page) => setCurrentPage(page);
 
-  // TODO: add comments here
+  // Renders the header, the chosen page, and the footer
   return (
     <div>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
