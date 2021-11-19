@@ -8,6 +8,7 @@ const styles = {
   },
   p: {
     fontSize: 75,
+    fontWeight: 'bold',
     margin: 20,
     textAlign: 'center'
   },

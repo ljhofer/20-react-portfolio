@@ -22,17 +22,17 @@ export default function Contact() {
 
       <form style={styles.form}>
         <div className="form-group" style={styles.div}>
-          <label for="exampleFormControlInput1">Enter your name</label>
+          <label for="htmlFor">Enter your name</label>
           <input type="input" className="form-control" id="exampleFormControlInput2" />
         </div>
                 
         <div className="form-group" style={styles.div}>
-          <label for="exampleFormControlInput1">Enter your email address</label>
+          <label for="htmlFor">Enter your email address</label>
           <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
         </div>
      
         <div className="form-group" style={styles.div}>
-          <label for="exampleFormControlTextarea1">Enter your message</label>
+          <label for="htmlFor">Enter your message</label>
           <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
 

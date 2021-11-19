@@ -3,15 +3,18 @@ import headshot from '../../images/blurred.png'
 
 const styles = {
   h1: {
-    textAlign: 'center'
+    textAlign: 'center',
+    marginBottom: 20,
   },
   div: {
     textAlign: 'center',
-    // marginTop: 100,
-    // marginLeft: 100,
   },
   p: {
     fontSize: 25,
+    padding: 25,
+    textAlign: 'justify',
+    backgroundColor: '#bbccbd',
+    margin: 15,
   },
 };
 

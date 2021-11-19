@@ -38,7 +38,7 @@ export default function Resume() {
     <div>
       <h1 style={styles.h1}>Resume</h1>
 
-      <h3 style={styles.h3}><a href={resumeImage} style={styles.resume} target="_blank" rel='noreferrer'>Download Resume</a></h3>
+      <h5 style={styles.h3}><a href={resumeImage} style={styles.resume} target="_blank" rel='noreferrer'>Download Resume</a></h5>
       
       <div>
         <h2 style={styles.h2}>Technical Skills</h2>
