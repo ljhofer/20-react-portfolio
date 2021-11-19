@@ -12,9 +12,9 @@ const styles = {
   p: {
     fontSize: 25,
     padding: 25,
-    textAlign: 'justify',
+    // textAlign: 'justify',
     backgroundColor: '#bbccbd',
-    margin: 15,
+    margin: 20,
   },
 };
 

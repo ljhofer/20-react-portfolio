@@ -1,30 +1,61 @@
 import React from "react";
-import githubImage from '../images/github.png';
-import twitterImage from '../images/twitter.png';
-import linkedinImage from '../images/linkedin.png';
+
+import { FaGithub, FaTwitterSquare, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 
 const styles = {
-    h2: {
-      textAlign: 'center',
-      margin: 25
-    },
-    img: {
+    footerIcon: {
       margin: 25,
-    }, 
-    div: {
-      justifyContent: 'center',
+      fontSize: '2em',
+      color: 'black'
+    },
+    footer: {
+      backgroundColor: '#8d968e',
     }
   };
 
 export default function Footer () {
 
+  // const handleMouseEnter = e => {
+  //   e.target.style.color = "black"
+  // } 
+  // const handleMouseLeave = e => {
+  //   e.target.style.color = "white"
+  // }
+
     return (
-      <div style={styles.div}>
-        <a href='https://github.com/ljhofer' target="_blank" rel="noreferrer"><img src={githubImage} alt='GitHub logo' style={styles.img}/></a>
-        <a href='http://twitter.com/Lolobeanshofer' target="_blank" rel="noreferrer"><img src={twitterImage} alt='GitHub logo' style={styles.img}/></a>
-        <a href='https://www.linkedin.com/in/laura-hofer/' target="_blank" rel="noreferrer"><img src={linkedinImage} alt='GitHub logo' style={styles.img}/></a>
-      </div>  
+      <footer style={styles.footer} className="footer">
+        <div className="container text-center">
+          <a 
+              // onMouseEnter={handleMouseEnter} 
+              // onMouseLeave={handleMouseLeave} 
+              href="https://github.com/ljhofer" 
+              target="_blank" rel="noreferrer">
+                  <FaGithub style={styles.footerIcon}/>
+          </a>
+          <a 
+              // onMouseEnter={handleMouseEnter} 
+              // onMouseLeave={handleMouseLeave} 
+              href="http://twitter.com/Lolobeanshofer" 
+              target="_blank" rel="noreferrer">
+                  <FaTwitterSquare style={styles.footerIcon} />
+          </a>
+          <a 
+              // onMouseEnter={handleMouseEnter} 
+              // onMouseLeave={handleMouseLeave} 
+              href="https://www.linkedin.com/in/laura-hofer/" 
+              target="_blank" rel="noreferrer">
+                  <FaLinkedin style={styles.footerIcon} />
+          </a>
+          <a 
+              // onMouseEnter={handleMouseEnter} 
+              // onMouseLeave={handleMouseLeave} 
+              href="mailto:ljhofer@gmail.com" 
+              target="_blank" rel="noreferrer">
+                  <FaEnvelope style={styles.footerIcon} />
+          </a>
+        </div>
+      </footer>
     )
 };
 
