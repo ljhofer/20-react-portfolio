@@ -19,12 +19,14 @@ const styles = {
   },
   uldiv: {
     justifyContent: 'center',
+    marginLeft: '20%',
+    marginRight: '15%',
+    marginBottom: 30
   },
   ul: {
     display: 'inline',
     justifyContent: 'center',
-    marginLeft: 30,
-  }
+  },
 };
 
 // Generates the HTML that displays in the Resume page
@@ -37,21 +39,29 @@ export default function Resume() {
       
       <div>
         <h2 style={styles.h2}>Technical Skills</h2>
-        <div style={styles.uldiv} className='row d-flex'>
-          <ul style={styles.ul} className='col-4'>
-              <li>HMTL</li>
-              <li>CCS</li>
-              <li>Bootstrap</li>
-              <li>JavaScript</li>
-              <li>jQuery</li>
-          </ul>
-          <ul style={styles.ul} className='col-4'>
-              <li>Express</li>
-              <li>Node.js</li>
-              <li>MySQL</li>
-              <li>MongoDB</li>
-              <li>React.js</li>
-          </ul>
+        <div className='row d-flex justify-content-center'>
+          <div className='col-4' >
+            <div style={styles.uldiv}>
+              <ul style={styles.ul}>
+                  <li>HMTL</li>
+                  <li>CCS</li>
+                  <li>Bootstrap</li>
+                  <li>JavaScript</li>
+                  <li>jQuery</li>
+              </ul>
+            </div>
+          </div>
+          <div className='col-4'> 
+            <div style={styles.uldiv}>
+              <ul style={styles.ul}>
+                  <li>Express</li>
+                  <li>Node.js</li>
+                  <li>MySQL</li>
+                  <li>MongoDB</li>
+                  <li>React.js</li>
+              </ul>
+            </div> 
+          </div>
         </div>
       </div>
     </div>
