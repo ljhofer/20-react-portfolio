@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/20-react-portfolio/static/css/main.3fa0e713.chunk.css",
-    "main.js": "/20-react-portfolio/static/js/main.639f84cf.chunk.js",
-    "main.js.map": "/20-react-portfolio/static/js/main.639f84cf.chunk.js.map",
+    "main.js": "/20-react-portfolio/static/js/main.4c66ed4a.chunk.js",
+    "main.js.map": "/20-react-portfolio/static/js/main.4c66ed4a.chunk.js.map",
     "runtime-main.js": "/20-react-portfolio/static/js/runtime-main.b8e09abb.js",
     "runtime-main.js.map": "/20-react-portfolio/static/js/runtime-main.b8e09abb.js.map",
     "static/css/2.383c0125.chunk.css": "/20-react-portfolio/static/css/2.383c0125.chunk.css",
@@ -18,6 +18,7 @@
     "static/media/email.8fbf50a2.jpg": "/20-react-portfolio/static/media/email.8fbf50a2.jpg",
     "static/media/employee.cf9de54f.jpg": "/20-react-portfolio/static/media/employee.cf9de54f.jpg",
     "static/media/movies.4b61a196.jpg": "/20-react-portfolio/static/media/movies.4b61a196.jpg",
+    "static/media/resumeScreenShot.d03b1445.png": "/20-react-portfolio/static/media/resumeScreenShot.d03b1445.png",
     "static/media/resume_11_21.bbd5d03a.pdf": "/20-react-portfolio/static/media/resume_11_21.bbd5d03a.pdf",
     "static/media/weather.40375b2d.jpg": "/20-react-portfolio/static/media/weather.40375b2d.jpg"
   },
@@ -26,6 +27,6 @@
     "static/css/2.383c0125.chunk.css",
     "static/js/2.1a1c0bc3.chunk.js",
     "static/css/main.3fa0e713.chunk.css",
-    "static/js/main.639f84cf.chunk.js"
+    "static/js/main.4c66ed4a.chunk.js"
   ]
 }
