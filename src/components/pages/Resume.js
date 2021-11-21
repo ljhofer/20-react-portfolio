@@ -1,4 +1,5 @@
 import resumeImage from '../../images/resume_11_21.pdf';
+import resumeScreenShot from '../../images/resumeScreenShot.png';
 
 // Styling for the HTML elements generated in this component
 const styles = {
@@ -11,16 +12,10 @@ const styles = {
     margin: 10,
     marginTop: 40,
   },
-  h3: {
-    textAlign: 'center',
-    margin: 20,
-  },
-  resume: {
-    textAlign: 'center',
-    textDecoration: 'none',
-    backgroundColor: '#bbccbd',
-    color: '#383d38',
-    padding: 10,
+  img: {
+    display: 'block',
+    marginLeft: 'auto',
+    marginRight: 'auto',
   },
   uldiv: {
     justifyContent: 'center',
@@ -38,7 +33,7 @@ export default function Resume() {
     <div>
       <h1 style={styles.h1}>Resume</h1>
 
-      <h5 style={styles.h3}><a href={resumeImage} style={styles.resume} target="_blank" rel='noreferrer'>Download Resume</a></h5>
+      <a href={resumeImage} target="_blank" rel='noreferrer'><img src={resumeScreenShot} alt="Resume" style={styles.img}/></a>
       
       <div>
         <h2 style={styles.h2}>Technical Skills</h2>
